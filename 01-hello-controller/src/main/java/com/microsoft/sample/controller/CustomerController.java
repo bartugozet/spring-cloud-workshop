@@ -12,7 +12,7 @@ public class CustomerController {
     @RequestMapping(value = "/{customerId}", method = RequestMethod.GET)
     @ResponseBody
     public Customer findById(@PathVariable int customerId){
-        return new Customer(1,"Pamir");
+        return new Customer(1,"Bartu");
     }
 
 
